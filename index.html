@@ -1,0 +1,299 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CITY | Premium Detailing</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="top-nav">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-main">CITY</span>
+                <span class="logo-sub">PREMIUM DETAILING</span>
+            </div>
+
+            <nav class="nav-links">
+                <a href="#services" class="nav-link active">Услуги</a>
+                <a href="#gallery" class="nav-link">Галерея</a>
+                <a href="#contacts" class="nav-link">Контакты</a>
+            </nav>
+
+            <button class="nav-btn-call" data-open-modal>ЗАПИСАТЬСЯ</button>
+        </div>
+    </header>
+
+    <div class="app-container">
+
+        <section class="hero">
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <div class="hero-badge">EST. 2020 • PREMIUM CARE</div>
+                <h1 class="hero-title">Безупречный вид.<br><span class="accent-text">В ритме города.</span></h1>
+                <p class="hero-desc">Премиальная трехфазная мойка и детейлинг. Мы возвращаем автомобилю состояние нового за один визит.</p>
+
+                <div class="hero-actions">
+                    <button class="btn-primary main-cta" data-open-modal>ВЫБРАТЬ УСЛУГУ</button>
+                    <div class="hero-stats">
+                        <div class="stat-item"><b>15k+</b> <span>Машин</span></div>
+                        <div class="stat-item"><b>100%</b> <span>Качество</span></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <main class="content-wrapper">
+
+            <div class="features-row">
+                <div class="feature-item">
+                    <span class="feature-icon">🛡️</span>
+                    <div class="feature-text">
+                        <h4>Гарантия качества</h4>
+                        <p>Даем официальную гарантию на все виды работ до 5 лет.</p>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <span class="feature-icon">🧪</span>
+                    <div class="feature-text">
+                        <h4>Премиум химия</h4>
+                        <p>Используем только проверенные бренды: Koch, Gyeon, KochChemie.</p>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <span class="feature-icon">📸</span>
+                    <div class="feature-text">
+                        <h4>Фотоотчет</h4>
+                        <p>Присылаем процесс работы над вашим авто в Telegram.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section-heading" id="gallery">
+                <h2 class="heading-title">ГАЛЕРЕЯ РАБОТ</h2>
+                <div class="heading-line"></div>
+            </div>
+
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1601362840469-51e4d8d58785?q=80&w=1000&auto=format&fit=crop" alt="Керамика">
+                    <div class="gallery-overlay">
+                        <span>Керамика 9H</span>
+                        <p>BMW X5 M-Competition</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?q=80&w=1000&auto=format&fit=crop" alt="Полировка">
+                    <div class="gallery-overlay">
+                        <span>Полировка кузова</span>
+                        <p>Mercedes-Benz S-Class</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1552930294-6b595f4c2974?q=80&w=1000&auto=format&fit=crop" alt="Химчистка">
+                    <div class="gallery-overlay">
+                        <span>Премиум химчистка</span>
+                        <p>Porsche 911</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1600705722908-bab1e6190209?q=80&w=1000&auto=format&fit=crop" alt="Оклейка">
+                    <div class="gallery-overlay">
+                        <span>Оклейка полиуретаном</span>
+                        <p>Audi RS6</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section-heading" id="services">
+                <h2 class="heading-title">ПРАЙС-ЛИСТ И КЛАССЫ УСЛУГ</h2>
+                <div class="heading-line"></div>
+            </div>
+
+            <div class="services-catalog">
+                <div class="service-category">
+                    <h3 class="category-name">ХИМЧИСТКА</h3>
+                    <div class="services-grid">
+                        <div class="service-card">
+                            <h4 class="card-title">Полная химчистка салона</h4>
+                            <ul class="card-features">
+                                <li>Очистка всех сидений и пола</li>
+                                <li>Химчистка потолка и стоек</li>
+                                <li>Озонирование (удаление запахов)</li>
+                            </ul>
+                            <div class="card-footer">
+                                <span class="card-price">500-800 ₽</span>
+                                <button class="btn-card" data-open-modal>Выбрать</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="service-category">
+                    <h3 class="category-name">КОНДИЦИОНЕР КОЖИ</h3>
+                    <div class="services-grid">
+                        <div class="service-card">
+                            <h4 class="card-title">Сиденья и подлокотники</h4>
+                            <ul class="card-features"><li>Глубокое питание кожи</li></ul>
+                            <div class="card-footer">
+                                <span class="card-price">500-800 ₽</span>
+                                <button class="btn-card" data-open-modal>Выбрать</button>
+                            </div>
+                        </div>
+                        <div class="service-card">
+                            <h4 class="card-title">Торпедо</h4>
+                            <ul class="card-features"><li>Очистка и защита пластика</li></ul>
+                            <div class="card-footer">
+                                <span class="card-price">500-800 ₽</span>
+                                <button class="btn-card" data-open-modal>Выбрать</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="service-category">
+                    <h3 class="category-name">КОМПЛЕКСЫ</h3>
+                    <div class="services-grid">
+                        <div class="service-card">
+                            <h4 class="card-title">Комплекс СТАНДАРТ</h4>
+                            <ul class="card-features">
+                                <li>Двухфазная мойка кузова</li>
+                                <li>Влажная уборка салона</li>
+                                <li>Пылесос и стекла</li>
+                            </ul>
+                            <div class="card-footer">
+                                <span class="card-price">от 1200 ₽</span>
+                                <button class="btn-card" data-open-modal>Выбрать</button>
+                            </div>
+                        </div>
+                        <div class="service-card">
+                            <h4 class="card-title">Комплекс ЛЮКС</h4>
+                            <ul class="card-features">
+                                <li>Трехфазная мойка</li>
+                                <li>Консервация пластика</li>
+                                <li>Чернение шин</li>
+                            </ul>
+                            <div class="card-footer">
+                                <span class="card-price">от 1500 ₽</span>
+                                <button class="btn-card" data-open-modal>Выбрать</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+
+        <section class="contacts-section" id="contacts">
+            <div class="content-wrapper">
+                <div class="section-heading">
+                    <h2 class="heading-title">ЛОКАЦИЯ И ОТЗЫВЫ</h2>
+                    <div class="heading-line"></div>
+                </div>
+
+                <div class="contacts-grid">
+                    <div class="contacts-info">
+                        <div class="info-card">
+                            <h3 class="info-title">ГДЕ МЫ НАХОДИМСЯ</h3>
+                            <p class="info-text">📍 г. Новокузнецк, ул. Кирова, 55</p>
+                            <p class="info-text">📞 +7 (923) 464-44-44</p>
+                            <p class="info-text">⏰ Ежедневно: 09:00 — 22:00</p>
+
+                            <div class="messengers-group">
+                                <div class="messenger-card">
+                                    <div class="msg-icon wa">
+                                        <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                                    </div>
+                                    <div class="msg-actions">
+                                        <span class="msg-title">WhatsApp</span>
+                                        <a href="https://wa.me/79050740742" target="_blank" class="msg-btn">Связаться с администратором <span>↗</span></a>
+                                    </div>
+                                </div>
+
+                                <div class="messenger-card">
+                                    <div class="msg-icon tg">
+                                        <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                                    </div>
+                                    <div class="msg-actions">
+                                        <span class="msg-title">Telegram</span>
+                                        <a href="https://t.me/avtocity_nvkz" target="_blank" class="msg-btn">Сообщество в телеграм <span>↗</span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="reviews-container">
+                            <h3 class="info-title">ОТЗЫВЫ КЛИЕНТОВ</h3>
+                            <div class="review-card">
+                                <div class="review-header">
+                                    <span class="review-author">Игорь С.</span>
+                                    <span class="review-rating">⭐⭐⭐⭐⭐</span>
+                                </div>
+                                <p class="review-text">«Отличный сервис. CITY — это уровень. Делал полировку и керамику, машина просто сияет. Рекомендую в Новокузнецке.»</p>
+                            </div>
+                            <a href="https://yandex.ru/maps/org/city/14938556990/reviews/" target="_blank" class="yandex-link">ЧИТАТЬ ВСЕ НА ЯНДЕКС.КАРТАХ ↗</a>
+                        </div>
+                    </div>
+
+                    <div class="map-container">
+                        <iframe src="https://yandex.ru/map-widget/v1/?ll=87.152898%2C53.752596&z=14&mode=search&ol=biz&oid=14938556990"
+                                allowfullscreen
+                                style="width: 100%; height: 100%; border: none; position: relative; filter: grayscale(1) invert(0.9) contrast(1.2);">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <nav class="mobile-tabbar">
+        <a href="#" class="tab-item active">
+            <span class="tab-icon">⊞</span>
+            <span>Главная</span>
+        </a>
+        <a href="#services" class="tab-item">
+            <span class="tab-icon">📋</span>
+            <span>Услуги</span>
+        </a>
+        <a href="#gallery" class="tab-item">
+            <span class="tab-icon">📸</span>
+            <span>Галерея</span>
+        </a>
+        <a href="#contacts" class="tab-item">
+            <span class="tab-icon">📍</span>
+            <span>Контакты</span>
+        </a>
+    </nav>
+
+    <div class="modal-overlay" id="bookingModal">
+        <div class="modal-content">
+            <button class="modal-close" id="closeModal">&times;</button>
+            <div class="modal-header">
+                <h3 class="modal-title">Запись CITY</h3>
+                <p class="modal-subtitle">Оставьте данные, мы перезвоним в течение 5 минут.</p>
+            </div>
+            <form class="booking-form" id="tgForm">
+                <div class="input-group">
+                    <label>Ваше имя</label>
+                    <input type="text" id="clientName" placeholder="Александр" required>
+                </div>
+                <div class="input-group">
+                    <label>Телефон</label>
+                    <input type="tel" id="clientPhone" placeholder="+7 (___) ___-__-__" required>
+                </div>
+                <button type="submit" class="btn-primary auth-submit" style="width: 100%; padding: 15px; background: var(--accent); color: #fff; border: none; border-radius: 4px; font-weight: 800; cursor: pointer; transition: 0.3s; margin-top: 15px;">
+                    <span class="btn-text">ОТПРАВИТЬ ЗАЯВКУ</span>
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
